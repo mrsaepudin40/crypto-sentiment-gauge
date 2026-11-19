@@ -3,6 +3,7 @@ name: crypto-sentiment-gauge
 description: Score the sentiment of a supplied crypto news/social corpus per coin — bullish, bearish, or neutral — with cited phrases, trend over time, and hype and scam flags, using a transparent word lexicon. It never predicts a price.
 summary: Score crypto sentiment per coin from a supplied corpus, with cited phrases, trend, and hype and scam flags.
 version: 1.0.0
+docs_url: https://github.com/mrsaepudin40/crypto-sentiment-gauge
 tags:
   - crypto
   - sentiment
