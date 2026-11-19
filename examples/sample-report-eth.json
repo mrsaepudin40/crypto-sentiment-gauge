@@ -1,0 +1,64 @@
+{
+  "coins": {
+    "ETH": {
+      "coin": "ETH",
+      "items": 6,
+      "score": -48,
+      "label": "bearish",
+      "positive_items": 1,
+      "negative_items": 5,
+      "neutral_items": 0,
+      "positive_hits": 6,
+      "negative_hits": 17,
+      "cited_phrases": [
+        {
+          "phrase": "crash",
+          "weight": "-2",
+          "item": 0,
+          "excerpt": "ETH crash fears grow as a maj..."
+        },
+        {
+          "phrase": "selloff",
+          "weight": "-2",
+          "item": 0,
+          "excerpt": "...ars grow as a major selloff hits the market."
+        },
+        {
+          "phrase": "fears",
+          "weight": "-1",
+          "item": 0,
+          "excerpt": "ETH crash fears grow as a major sel..."
+        },
+        {
+          "phrase": "dump",
+          "weight": "-2",
+          "item": 1,
+          "excerpt": "...mount while traders dump ETH after the explo..."
+        },
+        {
+          "phrase": "exploit",
+          "weight": "-2",
+          "item": 1,
+          "excerpt": "... dump ETH after the exploit."
+        }
+      ],
+      "trend": {
+        "first_half_avg": -3.67,
+        "second_half_avg": 0.0,
+        "delta": 3.67,
+        "direction": "rising"
+      },
+      "hype": {
+        "flagged": false,
+        "hype_items": [],
+        "hype_item_share": 0.0
+      },
+      "scam": {
+        "flagged": false,
+        "items": []
+      }
+    }
+  },
+  "total_items": 6,
+  "note": "Sentiment is not price direction. The score covers only the supplied corpus; a loud minority can look like consensus. Hype and scam flags are pattern matches, not verdicts."
+}

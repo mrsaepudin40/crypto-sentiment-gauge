@@ -1,0 +1,64 @@
+{
+  "coins": {
+    "BTC": {
+      "coin": "BTC",
+      "items": 6,
+      "score": 82,
+      "label": "strongly bullish",
+      "positive_items": 5,
+      "negative_items": 1,
+      "neutral_items": 0,
+      "positive_hits": 20,
+      "negative_hits": 2,
+      "cited_phrases": [
+        {
+          "phrase": "rally",
+          "weight": "+1",
+          "item": 0,
+          "excerpt": "Bitcoin rally continues as ETF in..."
+        },
+        {
+          "phrase": "surge",
+          "weight": "+1",
+          "item": 0,
+          "excerpt": "...nues as ETF inflows surge."
+        },
+        {
+          "phrase": "inflows",
+          "weight": "+1",
+          "item": 0,
+          "excerpt": "...ly continues as ETF inflows surge."
+        },
+        {
+          "phrase": "etf",
+          "weight": "+1",
+          "item": 0,
+          "excerpt": "... rally continues as ETF inflows surge."
+        },
+        {
+          "phrase": "breakout",
+          "weight": "+2",
+          "item": 1,
+          "excerpt": "BTC breakout to a record high on..."
+        }
+      ],
+      "trend": {
+        "first_half_avg": 4.33,
+        "second_half_avg": 1.67,
+        "delta": -2.66,
+        "direction": "falling"
+      },
+      "hype": {
+        "flagged": false,
+        "hype_items": [],
+        "hype_item_share": 0.0
+      },
+      "scam": {
+        "flagged": false,
+        "items": []
+      }
+    }
+  },
+  "total_items": 6,
+  "note": "Sentiment is not price direction. The score covers only the supplied corpus; a loud minority can look like consensus. Hype and scam flags are pattern matches, not verdicts."
+}

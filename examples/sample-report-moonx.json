@@ -1,0 +1,77 @@
+{
+  "coins": {
+    "MOONX": {
+      "coin": "MOONX",
+      "items": 5,
+      "score": -67,
+      "label": "strongly bearish",
+      "positive_items": 1,
+      "negative_items": 1,
+      "neutral_items": 3,
+      "positive_hits": 1,
+      "negative_hits": 5,
+      "cited_phrases": [
+        {
+          "phrase": "gains",
+          "weight": "+1",
+          "item": 2,
+          "excerpt": "Insane parabolic gains! Don't miss this ge..."
+        },
+        {
+          "phrase": "dumps",
+          "weight": "-2",
+          "item": 4,
+          "excerpt": "MOONX dumps after the team goes..."
+        },
+        {
+          "phrase": "fear",
+          "weight": "-1",
+          "item": 4,
+          "excerpt": "...oes silent, holders fear a rug."
+        },
+        {
+          "phrase": "rug",
+          "weight": "-2",
+          "item": 4,
+          "excerpt": "...ent, holders fear a rug."
+        }
+      ],
+      "trend": {
+        "first_half_avg": 0.0,
+        "second_half_avg": -1.33,
+        "delta": -1.33,
+        "direction": "falling"
+      },
+      "hype": {
+        "flagged": true,
+        "hype_items": [
+          0,
+          2
+        ],
+        "hype_item_share": 0.4
+      },
+      "scam": {
+        "flagged": true,
+        "items": [
+          {
+            "item": 1,
+            "patterns": [
+              "send-X-get-2X",
+              "guaranteed-returns"
+            ]
+          },
+          {
+            "item": 3,
+            "patterns": [
+              "double-your-money",
+              "giveaway-asks-to-send",
+              "celebrity-giveaway"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "total_items": 5,
+  "note": "Sentiment is not price direction. The score covers only the supplied corpus; a loud minority can look like consensus. Hype and scam flags are pattern matches, not verdicts."
+}
